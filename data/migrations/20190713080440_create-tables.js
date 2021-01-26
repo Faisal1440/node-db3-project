@@ -21,6 +21,7 @@ exports.up = function(knex) {
         .inTable('schemes')
         .onUpdate('CASCADE')
         .onDelete('CASCADE');
+        
     });
 };
 
